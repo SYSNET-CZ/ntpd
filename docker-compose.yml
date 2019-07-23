@@ -3,7 +3,7 @@ version: '3.4'
 services:
   ntp:
     build: .
-    image: sysnetcz/ntp:latest
+    image: sysnetcz/ntpd:latest
     container_name: ntp
     restart: always
     ports:
